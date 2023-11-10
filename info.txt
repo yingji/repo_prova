@@ -1,0 +1,11 @@
+Main Differences between Bash and Batch Commands:
+
+1. Platform: Bash is the command language for Unix-based systems like Linux, while Batch is for Windows platform.
+
+2. Syntax: Bash has a more complex syntax with a wide range of commands and features, while Batch has a simpler syntax.
+
+3. Capabilities: Bash is more powerful and flexible than Batch. It supports scripting, piping, command substitution, variables, loops, conditionals, and functions. Batch has limited capabilities in comparison.
+
+4. Interactivity: Bash supports interactive command line and scripting, while Batch is mainly used for automating repetitive tasks.
+
+5. File Extension: Bash script files have a .sh extension, while Batch files have a .bat or .cmd extension.
