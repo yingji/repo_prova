@@ -50,3 +50,6 @@ class Taxonomy:
         for b, d in self.breeds.items():
             print(b, d)
         return self.breeds
+
+if __name__ == '__main__':
+    pass
