@@ -33,9 +33,11 @@ class Taxonomy:
         """
         List all breeds in the taxonomy.
         """
+        logging.info(f'Listing breeds for {self.genus} {self.species}.')
+        
         if len(self.breeds)==0:
-            print(f'{self.genus} {self.species} doesn't have any breed')
+            print(f"{self.genus} {self.species} doesn't have any breed")
+        
         for b, d in self.breeds.items():
             print(b, d)
         return self.breeds
-        logging.info(f'Listing breeds for {self.genus} {self.species}.')
