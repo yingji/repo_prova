@@ -6,11 +6,20 @@ logging.basicConfig(level=logging.INFO)
 class Taxonomy:
     """
     A class to represent a biological taxonomy.
+
+    Taxonomy is the science of naming, defining and classifying groups of biological organisms on the basis of shared characteristics. Organisms are grouped together into taxa and these groups are given a taxonomic rank; groups of a given rank can be aggregated to form a more inclusive group of higher rank, thus creating a taxonomic hierarchy.
     """
 
     def __init__(self, kingdom:str, clade:str, order:str, family:str, genus:str, species:str):
         """
         Initialize Taxonomy with kingdom, clade, order, family, genus, species.
+
+        :param kingdom: The kingdom of the organism. (str)
+        :param clade: The clade of the organism. (str)
+        :param order: The order of the organism. (str)
+        :param family: The family of the organism. (str)
+        :param genus: The genus of the organism. (str)
+        :param species: The species of the organism. (str)
         """
         self.kingdom = kingdom
         self.clade = clade
