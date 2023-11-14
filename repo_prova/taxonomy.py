@@ -51,5 +51,3 @@ class Taxonomy:
             print(b, d)
         return self.breeds
 
-if __name__ == '__main__':
-    pass
