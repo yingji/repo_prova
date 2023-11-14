@@ -1,0 +1,9 @@
+https://python.langchain.com/docs/get_started/introduction
+https://python.langchain.com/docs/additional_resources/tutorials
+https://python.langchain.com/docs/use_cases/qa_structured/sql
+
+install: https://python.langchain.com/docs/get_started/quickstart
+
+OpenAI:
+https://platform.openai.com/docs/guides/chat
+https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
