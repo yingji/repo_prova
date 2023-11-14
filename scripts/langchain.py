@@ -7,11 +7,18 @@ Created on Tue Nov 14 11:02:34 2023
 import os
 import json
 import yaml
+import pycurl
+import certifi
+import requests
 from tkinter import Tk, filedialog
+
+from openai import OpenAI
 from langchain.chat_models import ChatOpenAI
 
-CCURENT_FILEPATH = os.path.abspath(__file__)
 
+CURRENT_FILEPATH = os.path.abspath(__file__)
+
+## init
 root = Tk() ; root.withdraw()
 filename = filedialog.askopenfilename(
     parent=root, 
@@ -26,4 +33,4 @@ else: #yaml
         config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
-llm = ChatOpenAI(openai_api_key="...")
+llm = ChatOpenAI(openai_api_key=config['openai_api_key'])

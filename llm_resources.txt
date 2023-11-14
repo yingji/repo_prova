@@ -5,5 +5,7 @@ https://python.langchain.com/docs/use_cases/qa_structured/sql
 install: https://python.langchain.com/docs/get_started/quickstart
 
 OpenAI:
-https://platform.openai.com/docs/guides/chat
+https://cookbook.openai.com/
 https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
+https://platform.openai.com/docs/guides/text-generation
+https://github.com/openai/openai-python
