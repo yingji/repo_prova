@@ -1,0 +1,4 @@
+duties:
+  prova:
+    cron: "3 16 * * *"
+    prompt: add a comment to {repo_prova} in the repository with a simple introduction.
