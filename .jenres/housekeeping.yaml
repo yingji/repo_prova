@@ -1,4 +1,4 @@
 duties:
   prova:
-    cron: "0 0 8 * * MON *"
+    cron: "0 8 1 * *"
     prompt: add a comment to {file_path} in the repository with a simple introduction and result of the test coverage
