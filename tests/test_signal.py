@@ -19,9 +19,12 @@ class TestSignal(unittest.TestCase):
 class TestNSTSignal(unittest.TestCase):
 
     def setUp(self):
-        record = wfdb.rdrecord('tests/nstdb/118e_6')
+        record = wfdb.rdrecord('resources/nstdb/118e06')
         # wfdb.plot_wfdb(record=record, title='Example signals')
-        self.sig = Signal(data = record.p_signal, fs= record.fs)
+        self.sig = Signal(
+            data = record.p_signal, fs= record.fs, 
+            sig_names=record.sig_name
+        )
     
     def test_filter(self):
         sig_filt = self.sig.band_filter([0.5, 40])
