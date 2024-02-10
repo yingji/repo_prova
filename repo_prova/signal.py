@@ -5,10 +5,25 @@ Created on Fri Dec  1 17:35:20 2023
 @author: wuy
 """
 
-import numpy as np
-import scipy.signal as spsgn
-import scipy.stats as spstats
-import pandas as pd
+try:
+    import numpy as np
+except ImportError:
+    np = None
+
+try:
+    import scipy.signal as spsgn
+except ImportError:
+    spsgn = None
+
+try:
+    import scipy.stats as spstats
+except ImportError:
+    spstats = None
+
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
 from typing import List
 # import matplotlib.pyplot as plt
 
